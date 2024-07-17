@@ -29,13 +29,14 @@ This Python script implements an advanced hybrid search system that combines sem
 
 ## Usage
 
-1. Place your text documents in the specified directory
-2. Run the script:
+1. Place your text documents in the specified directory (replace the paths <path_to_your_file_1.txt> and <path_to_your_file_2.txt> with your own .txt documents).
+2. Replace "[company]" in the script for your personalized use case.
+3. Run the script:
    ```
    python optimized-hybrid-search-script-v2.py
    ```
-3. Enter your questions when prompted
-4. Type 'quit' to exit the program
+4. Enter your questions when prompted
+5. Type 'quit' to exit the program
 
 ## Note
 
