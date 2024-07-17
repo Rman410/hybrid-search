@@ -1,0 +1,9 @@
+torch
+numpy
+sentence-transformers
+rank-bm25
+ollama
+nltk
+tqdm
+faiss-cpu
+asyncio
