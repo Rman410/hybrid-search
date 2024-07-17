@@ -17,7 +17,7 @@ This Python script implements an advanced hybrid search system that combines sem
 
 - Python 3.7+
 - See requirements.txt for Python package dependencies
-- Ollama installed locally (https://ollama.ai/)
+- Ollama installed locally (https://ollama.com/)
 
 ## Installation
 
@@ -26,7 +26,7 @@ This Python script implements an advanced hybrid search system that combines sem
    ```
    pip install -r requirements.txt
    ```
-3. Ensure Ollama is installed and the "phi3:latest" model is available
+3. Ensure Ollama is installed. This version has "phi3:latest" model as the default.
 
 ## Usage
 
@@ -42,17 +42,3 @@ This Python script implements an advanced hybrid search system that combines sem
 
 This script is designed for local processing and may be slower than cloud-based solutions, especially for large document sets. However, it provides a high level of privacy and control over the data processing pipeline.
 ```
-
-requirements.txt:
-```
-torch
-numpy
-sentence-transformers
-rank-bm25
-ollama
-nltk
-tqdm
-faiss-cpu
-asyncio
-```
-
