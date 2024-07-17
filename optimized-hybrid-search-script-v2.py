@@ -188,7 +188,7 @@ async def ollama_process(query: str, context: str) -> str:
             client.chat,
             model="phi3:latest",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant tasked to answer user questions about the company Practicing Musician. Use the provided context to answer questions accurately and comprehensively. Provide detailed explanations and examples where appropriate."},
+                {"role": "system", "content": "You are a helpful assistant tasked to answer user questions about the company [company]. Use the provided context to answer questions accurately and comprehensively. Provide detailed explanations and examples where appropriate."},
                 {"role": "user", "content": f"Context: {context}\n\nQuestion: {query}\n\nPlease provide a detailed and comprehensive answer:"}
             ],
             options={
@@ -216,7 +216,7 @@ async def main() -> None:
     await preload_model("phi3:latest")
     
     # Load documents
-    file_paths = ['C:/Users/roary/OneDrive/Desktop/Files/Practicing Musician/0 - AI and Director Learning/Projects/Ollama/PM Current Answers to FAQs.txt', 'C:/Users/roary/OneDrive/Desktop/Files/Practicing Musician/0 - AI and Director Learning/Projects/Ollama/PM Information on the Website.txt']
+    file_paths = ['path_to_your_file_1.txt', 'path_to_your_file_2.txt']
     documents = load_documents(file_paths)
 
     if len(documents) < 5:
@@ -244,7 +244,7 @@ async def main() -> None:
     while True:
         query = get_user_query()
         if query.lower() == 'quit':
-            logger.info("Thank you for using the Practicing Musician hybrid search system. Goodbye!")
+            logger.info("Thank you for using the [company] hybrid search system. Goodbye!")
             break
         
         try:
