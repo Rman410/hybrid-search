@@ -1,6 +1,3 @@
-Certainly! I'll create a README file and a requirements.txt file for the "optimized-hybrid-search-script-v2.py" script. Here's what these files would look like:
-
-README.md:
 ```markdown
 # Optimized Hybrid Search Script
 
