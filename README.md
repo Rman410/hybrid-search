@@ -1,4 +1,3 @@
-```markdown
 # Optimized Hybrid Search Script
 
 This Python script implements an advanced hybrid search system that combines semantic and lexical search techniques to process and retrieve information from large text documents. It uses Ollama for generating comprehensive answers based on the retrieved context.
@@ -41,4 +40,3 @@ This Python script implements an advanced hybrid search system that combines sem
 ## Note
 
 This script is designed for local processing and may be slower than cloud-based solutions, especially for large document sets. However, it provides a high level of privacy and control over the data processing pipeline.
-```
