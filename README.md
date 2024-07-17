@@ -33,7 +33,7 @@ This Python script implements an advanced hybrid search system that combines sem
 2. Replace "[company]" in the script for your personalized use case.
 3. Run the script:
    ```
-   python optimized-hybrid-search-script-v2.py
+   python hybrid-search.py
    ```
 4. Enter your questions when prompted
 5. Type 'quit' to exit the program
